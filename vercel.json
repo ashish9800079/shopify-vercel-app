@@ -3,5 +3,6 @@
   "devCommand": "remix dev",
   "framework": "remix",
   "installCommand": "npm install --legacy-peer-deps",
-  "outputDirectory": "public/build"
+  "outputDirectory": "public/build",
+  "nodeVersion": "18.x"
 }

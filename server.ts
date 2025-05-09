@@ -1,6 +1,6 @@
-import { createRequestHandler } from "@remix-run/express"
-import express from "express"
-import * as build from "@remix-run/dev/server-build"
+const { createRequestHandler } = require("@remix-run/express")
+const express = require("express")
+const build = require("@remix-run/dev/server-build")
 
 const app = express()
 const port = process.env.PORT || 3000
