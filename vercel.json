@@ -2,6 +2,6 @@
   "buildCommand": "remix build",
   "devCommand": "remix dev",
   "framework": "remix",
-  "installCommand": "npm install",
+  "installCommand": "npm install --legacy-peer-deps",
   "outputDirectory": "public/build"
 }
